@@ -101,13 +101,23 @@ img{
 .eo_info{
   text-align:center;
   margin:auto;
+  font-size:18px;
+  padding-bottom:12px;
 }
 .eo_header{
   font-size:32px;
-  font-style:bold;
+  text-decoration:underline;
+  font-weight:bold;
   text-align:center;
   margin:auto;
 }
 p{
   font-size:12px;
+}
+ei_img_big{
+  height:250px;
+  width:500px;
+}
+h2{
+  padding:10px;
 }
