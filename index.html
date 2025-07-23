@@ -10,7 +10,9 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <row> 
+    <nav class="navbar-light navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand navbar-textcolor" href="#"><img src="images/IMG_0601.PNG" alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,40 +24,40 @@
               <a class="nav-link nav-spacer" href="#">.</a>
             </li>
             <li class="nav-item navbar-textcolor">
-              <a class="nav-link navbar-textcolor" href="#">Home</a>
+              <button>
+              <a class="nav-link navbar-textcolor" href="index.html">Home</a>
+                </button>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar-textcolor" href="#">Link</a>
+              <button>
+              <a class="nav-link navbar-textcolor" href="EngineeringOutreach.html">Engineering Outreach</a>
+              </button>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle navbar-textcolor" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+            <li class="nav-item">
+              <button>
+              <a class="nav-link navbar-textcolor" href="Portfolio.html">
+                Portfolio
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </button>
             </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button id="eobtn"class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
       </div>
     </nav>
+  </row>
+    </div>
     <!-- NavBar end -->
 
     <!-- Main Content -->
-    <h1>Home Page</h1>
-
+    <div class="nameheader">
+      <h1 class="headersize p-indent"id="textalign-left">GABRIEL DUENAS</h1>
+      <h2 class="p-indent">~Aspiring Engineer and Designer~</h2>
+    </div>
     <!-- Main Container -->
-    <div class="row">
       <div class="main-container">
         <div class="col container-left">
           <main>
@@ -63,17 +65,37 @@
               <h2 id="textalign-left">Welcome to Gabriel's Website!</h2>
               <hr>
             </header>
-            <h2 class="tab">About the Creator</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+             <h2 class="tab">About The Creator</h2>
+              <div class="row content-left">
+                  <!-- First Row -->
+                  <div class="col-8 d-flex text-left">
+                    <p class="introp p-indent">  Hello! My name is Gabriel Duenas and I am a rising junior enrolled in the engineering pathway at the California Academy of Mathematics and Science. I am based in Long Beach, California, however one fun fact is that I was born and raised in New Jersey for half my life! Some of my academic interests are related to the following fields: Electrical Engineering, Aerospace Engineering, Mechanical Engineering, and Computer Science. I'm highly interested in being able to pursue a engineering major as I graduate high school and enter college. Outside of school, I have many personal interests. I love robotics and I even consider myself a robotics hobbyist, specifically, I enjoy the Computer-Aided design(CAD) portion where I often use softwares like Fusion 360, Onshape, and TinkerCad. Beyond my love for STEM, I love to play my guitar, walk my dog, play volleyball on the beach and maintain my garden!</p>
+                  </div>
+                  <div class="col-2 d-flex justify-content-center">
+                      <img src="images/F9621FF5-AB3E-4EAD-BBBC-DC93604EFB04_Photo.png" alt="Contact"class="pfp">
+                  </div>
+              </div>
+            <hr class="hr-right">
+            <h2 style="margin-top:20px; margin-right: 45px;"class="tab" id="textalign-right">What do I do?</h2>
+            <div class="row">
+              <div class="col-3 d-flex justify-content-center text-center">
+                <div class="row" id="imgcenter">
+                    <img src="images/IMG_4717.PNG" alt="hello world" id="imgsizing1"> 
+                    <p><i>Competition in Aerospace Valley Regional in April</i></p>
+                </div>
+              </div>
+              <div class="col-3 d-flex justify-content-center text-center">
+                <div class="row" id="imgcenter">
+                    <img src="images/IMG_4138.jpg" alt="hello world" id="imgsizing2">
+                    <p><i>Me and my friends at a Banquet</i></p>
+                </div>
+              </div>
+              <div class="col-6 d-flex">
+            <p class="introp"id="textalign-right">
+              One of my largest commitments that I have outside of school is my involvement within my FIRST Robotics team, 687. I began my journey in robotics during my freshman year, where I participated as a design member for FTC Team 51. Some of our accomplishments were being the FTC League G Finalists andwinning the FTC Inspire Award, as well as winning the Innovate award at the FTC Socal Championship. After moving into Sophomore year, I joined our larger FIRST Robotics team which I also participated as a design member. Some of our accomplishments were winning the Excellence in Engineering award at the Los Angeles Regional, and winning the Aerospace Valley Regional Gracious Professionalism award where we were also part of the winning alliance. Starting junior year, I am very excited to continue my journey through FIRST as design lead for our team and my explore my other commitments!
             </p>
-            <h2 class="tab">What do I do?</h2>
-            <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-            </p>
-            <p>
-              The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-            </p>
+              </div>
+            </div>
           </main>
         </div>
       </div>
@@ -103,6 +125,7 @@
                   <p class="eo_header">Contact:</p>
                 </div>
                 <div class="col">
+                  <p class="eo_header">Activities</p>
                 </div>
               </div>
             </div>
@@ -111,20 +134,36 @@
             <div class="col">
               <div class="row">
                 <div class="col">
-                  <p class="eo_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p class="eo_info">The purpose of this organization is to utilize outreach to encourage our community to become more aware and involved within the STEM field. The purpose of being a Non-Profit is to be able to provide funds to host both these STEM events and donate fundraised money to those in need. Additionally, we would like to reward high-achieving volunteers with hours gained towards awards such as PVSA. Our organizations uniqueness derives from the fact that it is student-run, with many encouraged to start their own chapters and become mentors for interested children.</p>
                 </div>
-                <div class="col">
-                  <p class="eo_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="col eo_info" id="textalign-left">
+                  <ol>
+                    <li>Expand our community-reach by reaching at least <u>5</u> different cities and have involvement with <u>4</u> school districts.</li><br>
+                    <li>Fundraise at least <u>$5,000</u> to different charities and communities in need.</li><br>
+                    <li>Expand our membership and branch-creation through expansion of <u>2</u> chapters in other schools.</li>
+                  </ol>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="row">
-                <div class="col">
-                  <h2>gduenasco27@gmail.com</h2>
+                <div class="col verticalalign">
+                  <p class=" contact">My email: <b>gduenasco27@gmail.com</b></p>
+                  <p class=" contact">Instagram: <b>@cams.engineering.outreach</b></p>
                 </div>
-                <div class="col">
-                  <img src="images/IMG_0601.PNG" alt="Contact"class="ei_img_big">
+                <div class="col imgcentering">
+                  <div class="container-fluid">
+                  <div class="row">
+                    <div class="col imgcentering">
+                    <img src="images/IMG_4650 (1).PNG" alt="Contact" class="eo_photos"">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col imgcentering">
+                    <img src="images/IMG_4650 (1).PNG" alt="Contact" class="eo_photos"">
+                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -137,7 +176,7 @@
 
     <div class="row">
       <div class="main-container">
-        <div class="col container-left">
+        <div class="col container-left text-center imgcentering">
           <main>
             <header>
               <h2 id="textalign-left">Notable Projects</h2>
@@ -145,32 +184,75 @@
             </header>
             <div class="row">
               <div class="col">
-                <h2 class="tab">Project 1</h2>
-                <p class="p-indent">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                <div class="row imgcentering">
+                  <p class="eo_header">Nutrient Buddy</p>
+                  <img src="images/Screenshot 2025-07-22 224852.png" alt="Contact"class="ei_img_big"
+                  <p><i>Image of Mock Company Logo "Friendly Farmers"</i></p>
+                  <br>
+                  <p class="p-indent">
+                   The Interdisplinary Project (IDP) is an annual organized team-based project hosted by the California Academy of Mathematics and Science for grades 9-11. The project is designed to implement the different core lessons we've learned throughout each of our pursued disciplines, and in specific, my 9th grade project, the Nutrient Buddy, focused on Computer Science as its core discipline. Nutrient Buddy seeks to offer user-friendly, accessible, and a fun interface for user to maintain their daily intake of nutrients throughout the day, week, or even month.<br><br> Nutrient Buddy began through its early stage of development through UI development on Figma, which later transitioned to the development on MIT App Inventor. It's feature include a user database of login information through storage of CSV files into an external spreadsheet database, database of catalouged meals and ingredients with their respective nutritional values, and a daily, weekly, and monthly intake summary. Lastly, one of our largest experimental implementations was the integration of an AI VLM (Vision Language Model) to identify and catalogue meals and ingredients through a user's uploaded image of their meal. (Note: The AI VLM had limited usage rates due to the limited usage rate of MIT App inventor, only being able to recognize 5 distinct meals.). We later presented this project during our school's Open House fair, finding large interest from our peers and guests through collected survey data. While largely discontinued, I am proud of the work that I've completed as the lead developer and I'd love to get an opportunity to work on this project in the future.
+                  </p>
+                </div>
               </div>
               <div class="col">
-                <h2 class="tab">Project 2</h2>
+                <div class="row imgcentering">
+                  <p class="eo_header">ROV (Remotely Operated Vehicle)</p>
+                <img src="images/Screenshot 2025-07-22 224940.png" alt="Contact"class="ei_img_big"
+                <p><i>Exploded View of Prototype Propeller</i></p>
+                <br>
                 <p class="p-indent">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  I've started this project with a few friends nearing the end of my sophomore year, and there has been considerable progress made. The majority of it was calculations-based, seeing how much thrust is necessary by our propellers to properly life and propel the ROV. I am currently testing different gear ratios to find the optimal rpm and thrust. Much of this requires understanding physics and hydronamics as we've needed to calculate both the surfance area of our propellers and necessary thrust to overcome the water's resistance. 
                 </p>
+                <img src="images/Screenshot 2025-07-23 001356.png" alt="Contact" class="ei_img_big">
+                <p><i>Prototype Frame utilizing PVC Pipes and Connectors</i></p>
+                  <br>
+                <p>
+                  Furthermore, I've gotten the opportunity to design the electrical components and seeing if there are different ways of implemented LLMs to the project such as local modules offered by Ollama. This project has been a great learning experience for me, and I am excited to continue working on it and testing in the future.
+                </p>
+                </div>
               </div>
               <div class="col">
-                <h2 class="tab">Project 2</h2>
-                <p class="p-indent">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+                <div class="row imgcentering" style="margin-right:10px;">
+                  <p class="eo_header">Robot Dog</p>
+                  <img src="images/Screenshot 2025-07-22 225114.png" alt="Contact"class="ei_img_big"
+                  <p><i>Simple Frame and Moduled Roll Capstain drive</i></p>
+                  <br>
+                  <p class="p-indent">
+                    This is my newest and largest-scaled project that I've begun on my own, tasking myself with creating a robot dog in one year. The plan is to utilize capstain drives to replace typical gears due to the reduction of backlash and noise of the systems. The system is designed to be largely modular, allowing ease of assembly and disassembly. For example in the image above, both the frame and the modular robot legs are designed to be easily removable and attached. I am currently in the mechanical design phase, focusing on creating the essential frame design of the robot dog and maneuvering around through the different capstain drive designs. The Capstains responsible for the robot leg movements will be attached to a five bar linkage system, allowing the usage of reverse kinematics to calculate the necessary angles for the leg to reach a desired point. This project will be a interdisciplinary project, requiring all of my knowledge in mechanical, electrical, and programming to complete.<br><br> My overarching plan is to utilize my current design as a prototype and I will utilize this data to create a more refined and optimized design for the final product. One of my largest passions is the social and mental health of senior citizens, with my family owning a home for senior citizens which I often volunteer and visit at. I hope to create a robot dog that can be used to help improve the mental health of senior citizens by providing them with a companion to interact with. This will be a long-term project, and I am excited to continue working on it and testing in the future.
+                  </p>
+                </div>
               </div>
             </div>
           </main>
         </div>
       </div>
     </div>
-
+    <!-- Footer -->
+    <footer class="footer mt-5 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start" style="padding:20px;">
+            <p class="mb-1">© 2025 Gabriel Duenas. All rights reserved.</p>
+            <p class="mb-0">Aspiring Engineer and Designer</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+            <a href="https://www.linkedin.com/in/gabriel-duenas-459846364/" target="_blank" class="social-link mx-2">
+              <i class="fab fa-linkedin"></i> <img src="images/linkedin.png" alt="Linkedin Logo" style="width: 75px; height: 75px; border-color:#EDE6DB; border-radius:10px;">
+            </a>
+            <a href="https://github.com/GabrielADuenas" target="_blank" class="social-link mx-2">
+              <i class="fab fa-github"></i> <img src="images/githublogo.png" alt="Github Logo" style="width: 75px; height: 75px;  border-color:#EDE6DB; border-radius:10px;">
+            </a>
+            <a href="https://www.instagram.com/gab3duenas/" target="_blank" class="social-link mx-2">
+              <i class="fab fa-instagram"></i> <img src="images/instagramlogo.jpg" alt="Instagram Logo" style="width: 75px; height: 75px;  border-color:#EDE6DB; border-radius:10px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
