@@ -1,5 +1,5 @@
 body{
-  font-family:"Roboto Serif"
+  font-family:"Jetbrains Mono"
 }
 h1{
   margin:auto;
@@ -35,10 +35,10 @@ p{
   padding:10px;
 }
 body{
-  background-color:#ffffff;
+  background-color:#b6d7a8;
 }
 .navbar navbar-expand-lg bg-body-tertiary{
-  background-color:#ffffff;
+  background-color:#b6d7a8;
   color:black
 }
 .navbar-textcolor{
@@ -66,9 +66,9 @@ body{
   padding: 20px;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #b6d7a8;
   color:black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Jetbrains Mono', sans-serif;
 }
 .tab{
   text-indent: 1em;
@@ -114,7 +114,7 @@ img{
 }
 p{
   font-size:18px;
-  font-family:"Roboto Serif"
+  font-family:"Jetbrains Mono"
 }
 .ei_img_big{
   height: 300px;
@@ -164,7 +164,7 @@ h2{
 }
 .introp{
   font-size:22px;
-  font-family:"Roboto Serif";
+  font-family:"Jetbrains Mono";
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -207,7 +207,7 @@ button{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size:36px;
+  font-size:24px;
 }
 .eo_figma{
   width:100%;
@@ -217,7 +217,7 @@ button{
   background-color: #EDE6DB;
   color: black;
   border-top: 2px solid black;
-  font-family: "Roboto Serif";
+  font-family: "Jetbrains Mono";
 }
 
 .footer p {
